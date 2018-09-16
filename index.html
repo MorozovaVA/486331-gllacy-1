@@ -24,7 +24,7 @@
               </div>
               <nav class="main-navigation">
                 <ul class="site-navigation">
-                  <li>
+                  <li class="item-hover">
                     <a class="site-navigation-item" href="catalog.html" title="Переход на страницу каталога" tabindex="1">Каталог</a>
                     <ul class="sub-menu">
                       <li>
@@ -56,7 +56,7 @@
               </nav>
               <nav class="user-navigation">
                 <ul class="user-navigation-list">
-                  <li>
+                  <li  class="item-hover">
                     <a href="#" class="search-button" title="кнопка для вывода поля поиска" tabindex="4"></a>
                     <ul class="form-search">
                       <li>
@@ -66,7 +66,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="login-link">
+                  <li class="login-link item-hover">
                     <a class="login-link-button" href="login.html" title="кнопка для входа" tabindex="5">Вход</a>
                     <ul class="form-enter">
                       <li>
@@ -244,26 +244,30 @@
         <div class="container-blog">
           <div class="wrapper-blog">
             <div class="center-blog">
-              <section class="blog">
-                <article class="article">
-                  <p>Новое в нашем блоге</p>
-                  <h2>
-                    <a>10 способов сервировки фруктовых щербетов к столу</a>
-                  </h2>
-                </article>
-              </section>
-              <section class="subscription">
-                <div class="container-fon">
-                  <div class="subscription-mail">          
-                    <p>Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит.
-                      Обещаем не спамить, и не слать всякой ненужной ерунды. Честно =)</p>
-                    <form class="mailing" action="https://echo.htmlacademy.ru" method="post">
-                      <input type="email" placeholder="Электронная почта">
-                      <button class="button subscription-button" type="submit">Отправить</button>
-                    </form>
-                  </div>  
-                </div>    
-              </section>
+              <div class="article-container">
+                <section class="blog">
+                  <article class="article">
+                    <p>Новое в нашем блоге</p>
+                    <h2>
+                      <a>10 способов сервировки фруктовых щербетов к столу</a>
+                    </h2>
+                  </article>
+                </section>
+              </div>
+              <div class="subscription-container">
+                <section class="subscription">
+                  <div class="container-fon">
+                    <div class="subscription-mail">          
+                      <p>Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит.
+                        Обещаем не спамить, и не слать всякой ненужной ерунды. Честно =)</p>
+                      <form class="mailing" action="https://echo.htmlacademy.ru" method="post">
+                        <input type="email" placeholder="Электронная почта">
+                        <button class="button subscription-button" type="submit">Отправить</button>
+                      </form>
+                    </div>  
+                  </div>    
+                </section>
+              </div>
             </div>  
           </div>  
         </div>
